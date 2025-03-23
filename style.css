@@ -1,1 +1,99 @@
-
+body{
+    margin: 0;
+    }
+    header{
+        height: 80px;
+        background-color: #FFFFFF;
+        padding: 10px;
+    }
+    .logo{
+        position: absolute; 
+        width: 47px;
+        left: 40px;
+        top: 7px;
+    }
+     .menu{
+        width: 1221px;
+        height: 80px;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        justify-content:space-evenly;
+    }
+    .menu-elements{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+    }
+    .container {
+        display: block;
+        }
+        .container img{
+            display: inline-block;
+            height: 2000px;
+            width: 1600px;
+        }
+        .main text p{
+            font-family: 'Margarine';
+            font-style: normal;
+            font-size: 64px;
+            color: #FFFFFF;
+            margin-top: 50px;
+            text-decoration: none;
+        }
+    .main-text{
+        font-family: 'Margarine';
+        font-style: normal;
+        font-size: 64px;
+        color: #FFFFFF;
+        margin-top: 50px;
+        text-decoration: none;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .hero-image {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .hero-text {
+        position: relative;
+        z-index: 1;
+        color: white;
+        font-family: 'Margarine', sans-serif;
+        font-size: 64px;
+        padding-left: 50px;
+        max-width: 40%;
+    }
+    
+    .buttons {
+        margin-top: 20px;
+    }
+    
+    .buttons button {
+        background-color: #f8f7f1;
+        color: black;
+        border: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
